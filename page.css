@@ -1,0 +1,49 @@
+html {
+  font-size:12px;
+  font-family: Verdana;
+  width: 100%;
+}
+
+body {
+  background-color: #252525;
+  color: #e5e5e5;
+  position: relative;
+}
+
+h2 {
+	font-family: Cookie;
+	font-size: 40px;
+}
+
+.main {
+	padding: 10px;
+	margin: 0rem;
+	min-width: 97%;
+	max-width: 100%;
+	position: relative;
+}
+
+
+
+
+
+@media only screen and (max-width:800px) {
+	body {
+  margin: auto;
+  width: 95%;
+}
+.main {
+    
+  }
+  
+  p {
+	  padding: 1em;
+	  position: relative;
+	  
+	  width: 97%;
+  }
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
